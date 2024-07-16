@@ -1,10 +1,8 @@
+
 from django.db import models
 
 # Create your models here.
-from django.db import models
-
-# Create your models here.
-class Order(models.Model):
+class List(models.Model):
   resto_name = models.CharField(max_length=255)
   resto_specialization = models.CharField(max_length=255)
   address = models.CharField(max_length=255)

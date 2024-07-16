@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
-from .forms import OrderForm
+from .forms import ListForm
 
 
 
@@ -11,9 +11,9 @@ def home_page(request):
     return HttpResponse(template.render())
 
 def restorans_list(request):
-    #print(request)
+   #print(request)
     if request.method == 'POST':
-        form = OrderForm(request.POST)
+        form = ListForm(request.POST)
         if form.is_valid():
             #first_name = form.cleaned_data['firstname']
             #last_name = form.cleaned_data['lastname']
@@ -22,6 +22,6 @@ def restorans_list(request):
             form.save()
             return render(request, 'home.html')
     else:
-        form = OrderForm()
+        form = ListForm()
 
     return render(request, 'restorans_list.html', {'form': form})

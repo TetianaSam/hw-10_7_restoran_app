@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="694ca53b-70f2-45b1-8422-b3ac1a307376" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/hw-10_7_restoran_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hw-10_7_restoran_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/templates/all_restaurants.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/templates/restorans_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/templates/restorans_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restorans/my_restorans/restorans_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/User/Desktop/GitTV/hw-10_7_restoran_app",
@@ -55,5 +66,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.bat" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/restorans/my_restorans/my_restorans/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

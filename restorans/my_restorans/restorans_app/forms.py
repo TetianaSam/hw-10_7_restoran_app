@@ -1,7 +1,7 @@
 from django import forms
-from .models import Order
+from .models import List
 
-class OrderForm(forms.ModelForm):
+class ListForm(forms.ModelForm):
     class Meta:
-        model = Order
+        model = List
         fields = "__all__" #['firstname', 'lastname', "address"] #  "__all__"
