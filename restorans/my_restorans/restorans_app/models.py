@@ -4,7 +4,7 @@ from django.db import models
 # Create your models here.
 class List(models.Model):
   resto_name = models.CharField(max_length=255)
-  resto_specialization = models.CharField(max_length=255)
+  resto_specialization = models.CharField(max_length=70)
   address = models.CharField(max_length=255)
   website = models.CharField(max_length=255)
   phone_number = models.CharField(max_length=255)
